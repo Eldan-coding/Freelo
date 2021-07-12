@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: grey;
+}
+
+header nav.row {
+  padding: 10px 0px 10px 0px;
+}
+
+header nav.row img {
+  min-width: 180px;
+}
+
+header div.links {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
