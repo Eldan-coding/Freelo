@@ -1,28 +1,18 @@
 body {
   height: 100%;
-  font-family: "Poppins", sans-serif;
-}
+  font-family: "Poppins", sans-serif; }
 
+/* Header----Nav */
 header {
-  background-color: grey;
-}
-
-header nav.row {
-  padding: 10px 0px 10px 0px;
-}
-
-header nav.row img {
-  min-width: 180px;
-}
-
-header div.links {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 0%;
-}
+  background-color: grey; }
+  header nav.row {
+    padding: 10px 0px 10px 0px; }
+    header nav.row img {
+      min-width: 180px; }
+  header div.links {
+    justify-content: space-around;
+    padding: 0%; }
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
-  font-size: 20px;
-}
-/*# sourceMappingURL=styles.css.map */
+  font-size: 20px; }
