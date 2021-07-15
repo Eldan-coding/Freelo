@@ -1,0 +1,33 @@
+.quehacemos{
+    height: 40%;
+    p{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.comuniProdu{
+    height: 60%;
+    .container-tarjetascomuniProdu{
+        height: 100%;
+        .tarjetascomuniProdu{
+            height: 90%;
+            .contenedor-icono{
+                width: 70px;
+                height: 70px;
+                top: -35px;
+                left: 46% ;
+                img{
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+}
