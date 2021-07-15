@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Freelo - Principales Clientes</title>
+    <title>Freelo - Contactanos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -61,14 +61,52 @@
 
     <main class="container-fluid">
         
-        <div class="sectionPagina row fondoBlanco row-cols-1 px-5">
-          <div class="col align-self-center">
-            <h1 class="fw-bold ">PRINCIPALES CLIENTES</h1>
+        <div class="sectionPagina fondoBlanco px-5 w-75 mx-auto d-flex flex-column justify-content-center">
+          <div  id="contact1" class="container-fluid d-flex flex-column">
+            <h1 class="fw-bold">¡CONTACTANOS!</h1>
+            <p >Campos marcados con un asterisco (*) son requeridos</p>
           </div>
-          <div class="col ">
-            <img class="w-75 border" src="img/prueba.PNG" alt="">
+          <div id="formula" class="container-fluid">
+            <form class="row">
+                <div class="form-floating mb-3 col-md-6 col-12">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                    <label class="ms-2" for="floatingInput">Nombre</label>
+                </div>
+                <div class="form-floating mb-3 col-md-6 col-12">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Empresa">
+                    <label class="ms-2" for="floatingInput">Empresa</label>
+                </div>
+                <div class="form-floating mb-3 col-md-6 col-12">
+                    <input type="email" class="form-control" id="floatingPassword" placeholder="ejemplo@freelo.com">
+                    <label class="ms-2" for="floatingPassword">Email*</label>
+                </div>
+                <div class="form-floating mb-3 col-md-6 col-12">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="WhatsApp">
+                    <label class="ms-2" for="floatingInput">WhatsApp</label>
+                </div>
+                <div class="form-floating mb-3  col-12">
+                    <textarea class="form-control" placeholder="Comentarios" id="floatingTextarea"></textarea>
+                    <label class="ms-2" for="floatingTextarea">Comentarios</label>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary fondoRosa">Enviar</button>
+                </div>
+            </form>
           </div>
         </div>
+
+
+        <div class="sectionPagina row fondoRosa2 row-cols-1 px-5 justify-content-center ">
+            <div class="col align-self-center w-75 mx-auto">
+              <h1 class="fw-bold">ENCONTRANOS EN...</h1>
+            </div>
+            <div class="col w-75 mx-auto">
+                <div class="mb-4"><img class="me-4" src="img/email.png" alt=""><span>hola@freeloagencia.com</span></div>
+                <div class="mb-4"><img class="me-4" src="img/instagram.png" alt=""><span>www.instagram.com/freelo.ar</span></div>
+                <div class="mb-4"><img class="me-4" src="img/linkedin-logo.png" alt=""><span>www.linkedin.com/company/freelo-agencia</span></div>
+                <div class="mb-4"><img class="me-4" src="img/whatsapp.png" alt=""><span>+54 911 6790 2370</span></div>
+            </div>
+          </div>
 
     </main>
 
