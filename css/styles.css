@@ -3,16 +3,42 @@ body {
   font-family: "Poppins", sans-serif; }
 
 /* Header----Nav */
-header {
-  background-color: grey; }
-  header nav.row {
-    padding: 10px 0px 10px 0px; }
-    header nav.row img {
-      min-width: 180px; }
-  header div.links {
-    justify-content: space-around;
-    padding: 0%; }
+header nav.row {
+  padding: 10px 0px 10px 0px; }
+  header nav.row img {
+    min-width: 180px; }
+
+header div.links {
+  justify-content: space-around;
+  padding: 0%; }
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
   font-size: 20px; }
+
+.footer-contenido {
+  height: 15vh; }
+
+.sectionPagina {
+  height: 80vh; }
+
+.textPresentacion {
+  font-size: 3rem; }
+
+.textnormal {
+  font-size: 1.2rem; }
+
+.fondoBlanco {
+  background-color: white; }
+
+.fondoNegro {
+  background-color: black; }
+
+.fondoRojo {
+  background-color: #FC4D30; }
+
+.fondoRosa {
+  background-color: #F573AF; }
+
+.fondoNaranja {
+  background-color: #FFAA19; }

@@ -6,7 +6,6 @@ body {
 /* Header----Nav */
 
 header {
-  background-color: grey;
   nav.row {
     padding: 10px 0px 10px 0px;
     img {
@@ -22,3 +21,22 @@ header {
   color: white;
   font-size: 20px;
 }
+
+.footer-contenido{
+  height: 15vh;
+}
+
+.sectionPagina{
+  height: 80vh;
+}
+
+.textPresentacion{
+  font-size: 3rem;
+}
+
+.textnormal{
+  font-size: 1.2rem;
+}
+
+
+@import "_coloresFondo.scss";
