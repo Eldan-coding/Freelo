@@ -27,17 +27,54 @@ header {
 }
 
 .sectionPagina{
-  height: 80vh;
 }
 
 .textPresentacion{
-  font-size: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .textnormal{
-  font-size: 1.2rem;
+  text-align: center;
 }
 
+.icon-footer{
+  width: 15px;
+}
+
+@media (min-width: 576px) { 
+  .icon-footer{
+    width: 24px;
+  }
+}
+
+@media (min-width: 768px) { 
+  .textPresentacion{
+    font-size: 2rem;
+    text-align: initial;
+  }
+  .textnormal{
+    text-align: initial;
+  }
+  .icon-footer{
+    width: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+    .textPresentacion{
+    font-size: 3rem;
+    text-align: initial;
+  }
+  .sectionPagina{
+    height: 80vh;
+  }
+  
+  .textnormal{
+  font-size: 1rem;
+}
+
+}
 
 @import "_styles_servicios.scss";
 @import "_styles_clientes.scss";
