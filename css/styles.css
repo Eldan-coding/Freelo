@@ -51,35 +51,43 @@ header div.links {
   .textnormal {
     font-size: 1rem; } }
 
-.quehacemos {
-  height: 40%; }
-  .quehacemos p {
+.comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu .contenedor-icono {
+  width: 70px;
+  height: 70px;
+  top: -35px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+  .comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu .contenedor-icono img {
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
 
-.comuniProdu {
-  height: 60%; }
-  .comuniProdu .container-tarjetascomuniProdu {
-    height: 100%; }
-    .comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu {
-      height: 90%; }
-      .comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu .contenedor-icono {
-        width: 70px;
-        height: 70px;
-        top: -35px;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto; }
-        .comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu .contenedor-icono img {
-          margin: 0;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%); }
+.container-carousel img {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  .container-carousel img {
+    width: 75%; } }
+
+@media (min-width: 992px) {
+  .quehacemos {
+    height: 40%; }
+    .quehacemos p {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+  .comuniProdu {
+    height: 60%; }
+    .comuniProdu .container-tarjetascomuniProdu {
+      height: 100%; }
+      .comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu {
+        height: 90%; } }
 
 #contact {
   height: 30%; }
