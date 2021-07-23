@@ -18,7 +18,7 @@ header {
   }
 }
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
@@ -32,6 +32,7 @@ header {
 .textPresentacion{
   font-size: 1.5rem;
   text-align: center;
+  color: #FFAA19;
 }
 
 .textnormal{
@@ -67,7 +68,7 @@ header {
     text-align: initial;
   }
   .sectionPagina{
-    height: 80vh;
+    height: 65vh;
   }
   
   .textnormal{
@@ -75,6 +76,12 @@ header {
 }
 
 }
+
+#clientesimg{
+  max-width: 970px;
+}
+
+
 
 @import "_styles_servicios.scss";
 @import "_styles_clientes.scss";

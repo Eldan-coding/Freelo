@@ -13,7 +13,7 @@ header div.links {
   padding: 0%; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: black;
   font-size: 20px; }
 
 .footer-contenido {
@@ -21,7 +21,8 @@ header div.links {
 
 .textPresentacion {
   font-size: 1.5rem;
-  text-align: center; }
+  text-align: center;
+  color: #FFAA19; }
 
 .textnormal {
   text-align: center; }
@@ -47,9 +48,12 @@ header div.links {
     font-size: 3rem;
     text-align: initial; }
   .sectionPagina {
-    height: 80vh; }
+    height: 65vh; }
   .textnormal {
     font-size: 1rem; } }
+
+#clientesimg {
+  max-width: 970px; }
 
 .comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu .contenedor-icono {
   width: 70px;
@@ -109,6 +113,10 @@ header div.links {
 #botonvar {
   width: unset !important; }
 
+@media (max-width: 768px) {
+  #encuentraiconos {
+    text-align: center; } }
+
 #formula {
   height: 50%; }
 
@@ -137,3 +145,10 @@ header div.links {
 
 .fondoRosa2 {
   background-color: #f5c8e3; }
+
+/* Colores texto */
+.textoRosa {
+  color: #F573AF; }
+
+.textoNaranja {
+  color: #FFAA19; }

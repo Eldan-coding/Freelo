@@ -27,7 +27,12 @@
     width: unset !important;
 }
 
+@media (max-width: 768px) {
 
+    #encuentraiconos{
+        text-align: center;
+    }
+}
 
 #formula{
     height: 50%;
