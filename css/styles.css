@@ -1,38 +1,102 @@
 body {
   height: 100%;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; }
 
 /* Header----Nav */
 header nav.row {
   padding: 10px 0px 10px 0px; }
   header nav.row img {
-    min-width: 180px; }
+    min-width: 140px;
+    margin-left: 20px; }
 
 header div.links {
   justify-content: space-around;
   padding: 0%; }
 
-.navbar-light .navbar-nav .nav-link {
-  color: black;
-  font-size: 20px; }
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 17px !important;
+  font-weight: lighter; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  font-weight: 600; }
+
+.custom-toggler.navbar-toggler {
+  margin-right: 20px;
+  border-color: white; }
+
+.sectionPagina {
+  height: 40vh; }
+  .sectionPagina img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+@media (min-width: 576px) {
+  .sectionPagina {
+    height: 70vh; } }
+
+@media (min-width: 992px) {
+  .sectionPagina {
+    height: 100vh; } }
+
+.logoIntro {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+  .logoIntro img {
+    width: 200px; }
+  .logoIntro .parrafointro {
+    color: white;
+    font-size: 1rem; }
+  @media (min-width: 576px) {
+    .logoIntro img {
+      width: 350px; }
+    .logoIntro .parrafointro {
+      font-size: 1.2rem; } }
+  @media (min-width: 992px) {
+    .logoIntro img {
+      width: 600px; }
+    .logoIntro .parrafointro {
+      font-size: 2rem; } }
 
 .footer-contenido {
   height: 15vh; }
 
 .textPresentacion {
   font-size: 1.5rem;
+  color: #ffaa19; }
+
+.textTrabajos {
+  font-weight: 700;
+  font-size: 2rem;
   text-align: center;
-  color: #FFAA19; }
+  color: black; }
 
 .textnormal {
-  text-align: center; }
+  text-align: center;
+  line-height: 300%;
+  margin-bottom: 20px; }
 
 .icon-footer {
-  width: 15px; }
+  background-color: white;
+  width: 40px;
+  padding: 5px;
+  border-radius: 8px; }
+
+.icon-footer:hover {
+  box-shadow: -2px -1px 68px 3px rgba(248, 248, 248, 0.75);
+  -webkit-box-shadow: -2px -1px 68px 3px rgba(248, 248, 248, 0.75);
+  -moz-box-shadow: -2px -1px 68px 3px rgba(248, 248, 248, 0.75); }
 
 @media (min-width: 576px) {
   .icon-footer {
-    width: 24px; } }
+    width: 50px; } }
 
 @media (min-width: 768px) {
   .textPresentacion {
@@ -45,10 +109,8 @@ header div.links {
 
 @media (min-width: 992px) {
   .textPresentacion {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: initial; }
-  .sectionPagina {
-    height: 65vh; }
   .textnormal {
     font-size: 1rem; } }
 
@@ -62,7 +124,10 @@ header div.links {
   left: 0;
   right: 0;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  box-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.97);
+  -webkit-box-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.97);
+  -moz-box-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.97); }
   .comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu .contenedor-icono img {
     margin: 0;
     position: absolute;
@@ -89,13 +154,54 @@ header div.links {
   .comuniProdu {
     height: 60%; }
     .comuniProdu .container-tarjetascomuniProdu {
-      height: 100%; }
-      .comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu {
-        height: 90%; } }
+      height: 100%; } }
+
+#titleClientes {
+  margin-top: 30px; }
+
+body,
+html {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  font-weight: 600; }
 
 .contact {
+  height: 80vh;
   width: 100%;
   text-align: center; }
+
+#comentarios {
+  height: 100px; }
+
+.modal-content {
+  padding: 10px;
+  width: 600px; }
+
+.contact-modal {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 900; }
+
+.close-gif {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: none;
+  outline: none; }
+
+.close-icon {
+  font-size: 40px; }
 
 @media (min-width: 576px) {
   .contact {
@@ -120,12 +226,19 @@ header div.links {
 #formula {
   height: 50%; }
 
+.botonRosa:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #F573AF; }
+
 /* Colores primarios */
 .fondoBlanco {
   background-color: white; }
 
 .fondoNegro {
   background-color: black; }
+
+.fondoGris {
+  background-color: #383838; }
 
 .fondoRojo {
   background-color: #FC4D30; }
