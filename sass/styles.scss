@@ -9,7 +9,8 @@ header {
   nav.row {
     padding: 10px 0px 10px 0px;
     img {
-      min-width: 140px;
+      min-width: 99.190px;
+      width: 20%;
       margin-left: 20px;
     }
   }
@@ -21,7 +22,9 @@ header {
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
-  font-size: 17px !important;
+  font-size: 15px !important;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-weight: lighter;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -65,17 +68,10 @@ header {
   img{
     width: 200px;
   }
-  .parrafointro{
-    color: white;
-    font-size: 1rem;
-  }
-  
+
   @media (min-width: 576px) {
     img{
       width: 350px;
-    }
-    .parrafointro{
-      font-size: 1.2rem;
     }
   }
 
@@ -83,14 +79,12 @@ header {
     img{
       width: 600px;
     }
-    .parrafointro{
-      font-size: 2rem;
-    }
   }
 }
 
+
 .footer-contenido {
-  height: 15vh;
+  height: 7vh;
 }
 
 .textPresentacion {
@@ -104,6 +98,11 @@ header {
   color: black;
 }
 
+.parrafointro{
+  color: #F573AF;
+  font-size: 1rem;
+}
+
 .textnormal {
   text-align: center;
   line-height: 300%;
@@ -111,7 +110,6 @@ header {
 }
 
 .icon-footer {
-  background-color: white;
   width: 40px;
   padding: 5px;
   border-radius: 8px;
@@ -123,8 +121,16 @@ header {
 }
 
 @media (min-width: 576px) {
+  .textnormal {
+    text-align: initial;
+    width: 75%;
+    margin: 0 auto;
+  }
   .icon-footer {
     width: 50px;
+  }
+  .parrafointro{
+    font-size: 1.2rem;
   }
 }
 
@@ -147,8 +153,13 @@ header {
     text-align: initial;
   }
 
+  .parrafointro{
+    font-size: 2rem;
+  }
   .textnormal {
     font-size: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
